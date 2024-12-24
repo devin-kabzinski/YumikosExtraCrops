@@ -1,0 +1,64 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add mustard to the Preserves Jar",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)15",
+        "OutputRules"
+      ],
+      "Entries": {
+        "Mustard_Rule": {
+          "Id": "Mustard_Rule",
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "RequiredItemId": "Mustard_Seeds",
+              "RequiredCount": 5,
+              "Condition": null
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": false,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": 0,
+              "Condition": null,
+              "Id": "Dijon_Mustard",
+              "ItemId": "Dijon_Mustard",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null,
+              "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "348"
+              }
+            }
+          ],
+          "DaysUntilReady": 4,
+          "InvalidCountMessage": null,
+          "RecalculateOnCollect": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "Mustard_Seeds": {
+          "Seasons": [
+            "Winter"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            3,
+            3,
+            3
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "HarvestItemId": "Mustard_Seeds",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 4,
+          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMethod": "Grab",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

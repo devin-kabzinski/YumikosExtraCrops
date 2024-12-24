@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Mustard_Seeds": {
+          "Name": "Mustard_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 40,
+          "SpriteIndex": 0,
+          "DisplayName": "{{i18n:Mustard_Seeds_name}}",
+          "Description": "{{i18n:Mustard_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Dijon_Mustard": {
+          "Name": "Dijon_Mustard",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 880,
+          "SpriteIndex": 1,
+          "Edibility": 15,
+          "IsDrink": true,
+          "DisplayName": "{{i18n:Dijon_Mustard_name}}",
+          "Description": "{{i18n:Dijon_Mustard_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Deviled_Egg": {
+          "Name": "Deviled_Egg",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 175,
+          "SpriteIndex": 2,
+          "Edibility": 20,
+          "IsDrink": false,
+          "Buffs": [
+            {
+              "Id": "Deviled_Egg",
+              "Duration": 600,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 0.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 1.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 0.0,
+                "Defense": 0.0,
+                "Attack": 0.0
+              }
+            }
+          ],
+          "DisplayName": "{{i18n:Deviled_Egg_name}}",
+          "Description": "{{i18n:Deviled_Egg_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects",
+          "ContextTags": [
+            "color_white"
+          ]
+        }
+      }
+    }
+  ]
+}

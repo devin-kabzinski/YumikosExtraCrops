@@ -1,0 +1,25 @@
+{
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Fun Toggle That Does Nothing": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "This is just a fun little toggle, don't pay it any mind."
+		}
+	},
+	"Changes": [
+        {
+            "Action": "Load",
+            "Target": "SakakiYumiko.YumikosExtraCrops/Crops, SakakiYumiko.YumikosExtraCrops/Objects",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+		{
+			"Action": "Include",
+			"FromFile": "data/Crops.json, data/Machines.json, data/Objects.json, data/CookingRecipes.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Shop_Seeds.json"
+		}
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "Entries": {
+        "Mustard_Seeds": {
+          "Id": "Mustard_Seeds",
+          "ItemId": "Mustard_Seeds",
+          "Condition": "SEASON Winter",
+          "Price": "40"
+        }
+      },
+      "MoveEntries": [
+        {
+          "ID": "Mustard_Seeds",
+          "ToPosition": "Top"
+        }
+      ]
+    }
+  ]
+}

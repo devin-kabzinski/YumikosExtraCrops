@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Deviled Eggs": "-5 3 306 1 Dijon_Mustard 1 419 1/25 5/Deviled_Egg 6/default"
+      }
+    }
+  ]
+}
