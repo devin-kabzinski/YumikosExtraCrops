@@ -4,14 +4,154 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
+        "Basil_Seeds": {
+          "Name": "Basil_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Basil_Seeds_name}}",
+          "Description": "{{i18n:Basil_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Cardamom_Seeds": {
+          "Name": "Cardamom_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Cardamom_Seeds_name}}",
+          "Description": "{{i18n:Cardamom_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+         "Coriander_Seeds": {
+          "Name": "Coriander_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Coriander_Seeds_name}}",
+          "Description": "{{i18n:Coriander_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Cumin_Seeds": {
+          "Name": "Cumin_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Cumin_Seeds_name}}",
+          "Description": "{{i18n:Cumin_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
         "Mustard_Seeds": {
           "Name": "Mustard_Seeds",
           "Type": "Seeds",
           "Category": -74,
-          "Price": 40,
-          "SpriteIndex": 0,
+          "Price": 000,
+          "SpriteIndex": 000,
           "DisplayName": "{{i18n:Mustard_Seeds_name}}",
           "Description": "{{i18n:Mustard_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Oregano_Seeds": {
+          "Name": "Oregano_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Oregano_Seeds_name}}",
+          "Description": "{{i18n:Oregano_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Turmeric_Seeds": {
+          "Name": "Turmeric_Seeds",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Turmeric_Seeds_name}}",
+          "Description": "{{i18n:Turmeric_Seeds_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Black_Pepper_Vine_Starter": {
+          "Name": "Black_Pepper_Vine_Starter",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Black_Pepper_Vine_Starter_name}}",
+          "Description": "{{i18n:Black_Pepper_Vine_Starter_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Vanilla_Starter": {
+          "Name": "Vanilla_Starter",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Vanilla_Starter_name}}",
+          "Description": "{{i18n:Vanilla_Starter_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Allspice_Tree_Sapling": {
+          "Name": "Allspice_Tree_Sapling",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Allspice_Tree_Sapling_name}}",
+          "Description": "{{i18n:Allspice_Tree_Sapling_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Cinnamon_Tree_Sapling": {
+          "Name": "Cinnamon_Tree_Sapling",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Cinnamon_Tree_Sapling_name}}",
+          "Description": "{{i18n:Cinnamon_Tree_Sapling_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Vanilla_Starter": {
+          "Name": "Vanilla_Starter",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Vanilla_Starter_name}}",
+          "Description": "{{i18n:Vanilla_Starter_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Vanilla_Starter": {
+          "Name": "Vanilla_Starter",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Vanilla_Starter_name}}",
+          "Description": "{{i18n:Vanilla_Starter_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Coriander_Stalk": {
+          "Name": "Coriander_Stalk",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Coriander_Stalk_name}}",
+          "Description": "{{i18n:Coriander_Stalk_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Turmeric_Root": {
+          "Name": "Turmeric_Root",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 000,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Turmeric_Root_name}}",
+          "Description": "{{i18n:_Turmeric_Root_description}}",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
         },
         "Dijon_Mustard": {
