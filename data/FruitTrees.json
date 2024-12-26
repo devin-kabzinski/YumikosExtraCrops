@@ -1,0 +1,62 @@
+{
+  "Action": "EditData",
+  "Target": "Data/FruitTrees",
+  "Entries": {
+    "Allspice_Tree_Sapling": {
+      "DisplayName": "{{i18n:Allspice_Tree_Sapling_name}}",
+      "Seasons": [
+        "Summer"
+      ],
+      "Fruit": [
+        {
+          "Id": "Allspice_Fruit",
+          "ItemId": "Allspice_Fruit"
+        }
+      ],
+      "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
+      "TextureSpriteRow": 000
+    },
+    "Cinnamon_Tree_Sapling": {
+      "DisplayName": "{{i18n:Cinnamon_Tree_Sapling_name}}",
+      "Seasons": [
+        "Fall"
+      ],
+      "Fruit": [
+        {
+          "Id": "Cinnamon_Bark",
+          "ItemId": "Cinnamon_Bark"
+        }
+      ],
+      "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
+      "TextureSpriteRow": 000
+    },
+    "Clove_Tree_Sapling": {
+      "DisplayName": "{{i18n:Clove_Tree_Sapling_name}}",
+      "Seasons": [
+        "Winter"
+      ],
+      "Fruit": [
+        {
+          "Id": "Clove_Flower_Bud",
+          "ItemId": "Clove_Flower_Bud"
+        }
+      ],
+      "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
+      "TextureSpriteRow": 000
+    },
+    "Nutmeg_Tree_Sapling": {
+      "DisplayName": "{{i18n:Nutmeg_Tree_Sapling}}",
+      "Seasons": [
+        "Summer"
+      ],
+      "Fruit": [
+        {
+          "Id": "Nutmeg_Fruit",
+          "ItemId": "Nutmeg_Fruit"
+        }
+      ],
+      "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
+      "TextureSpriteRow": 000
+    }
+  }
+}

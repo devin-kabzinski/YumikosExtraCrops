@@ -84,14 +84,14 @@
           "Description": "{{i18n:Black_Pepper_Vine_Starter_description}}",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
         },
-        "Vanilla_Starter": {
-          "Name": "Vanilla_Starter",
+        "Vanilla_Vine_Starter": {
+          "Name": "Vanilla_Vine_Starter",
           "Type": "Seeds",
           "Category": -74,
           "Price": 80,
           "SpriteIndex": 000,
-          "DisplayName": "{{i18n:Vanilla_Starter_name}}",
-          "Description": "{{i18n:Vanilla_Starter_description}}",
+          "DisplayName": "{{i18n:Vanilla_Vine_Starter_name}}",
+          "Description": "{{i18n:Vanilla_Vine_Starter_description}}",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
         },
         "Allspice_Tree_Sapling": {
@@ -138,7 +138,7 @@
           "Name": "Basil_Leaves",
           "Type": "Greens",
           "Category": -81,
-          "Price": 35,
+          "Price": 40,
           "SpriteIndex": 000,
           "DisplayName": "{{i18n:Basil_Leaves_name}}",
           "Description": "{{i18n:Basil_Leaves_description}}",
@@ -204,6 +204,16 @@
           "Description": "{{i18n:Allspice_Fruit_description}}",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
         },
+        "Allspice_Fruit_Dried": {
+          "Name": "Allspice_Fruit_Dried",
+          "Type": "Fruit",
+          "Category": -79,
+          "Price": 20,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Allspice_Fruit_Dried_name}}",
+          "Description": "{{i18n:Allspice_Fruit_Dried_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
         "Cinnamon_Bark": {
           "Name": "Cinnamon_Bark",
           "Type": "Forage",
@@ -232,6 +242,16 @@
           "SpriteIndex": 000,
           "DisplayName": "{{i18n:Nutmeg_Fruit_name}}",
           "Description": "{{i18n:Nutmeg_Fruit_description}}",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
+        },
+        "Nutmeg_Fruit_Dried": {
+          "Name": "Nutmeg_Fruit_Dried",
+          "Type": "Fruit",
+          "Category": -79,
+          "Price": 60,
+          "SpriteIndex": 000,
+          "DisplayName": "{{i18n:Nutmeg_Fruit_Dried_name}}",
+          "Description": "{{i18n:Nutmeg_Fruit_Dried_description}}",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
         },
         "Allspice": {
@@ -282,16 +302,6 @@
           "SpriteIndex": 000,
           "DisplayName": "{{i18n:Cinnamon_name}}",
           "Description": "{{i18n:Cinnamon_description}}",
-          "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
-        },
-        "Cilantro": {
-          "Name": "Cilantro",
-          "Type": "Ingredient",
-          "Category": -25,
-          "Price": 50,
-          "SpriteIndex": 000,
-          "DisplayName": "{{i18n:Cilantro_name}}",
-          "Description": "{{i18n:Cilantro_description}}",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Objects"
         },
         "Cloves": {
