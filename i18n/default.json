@@ -28,13 +28,17 @@
 	"Nutmeg_Tree_Sapling_name": "",
 	"Nutmeg_Tree_Sapling_description": "",
 
+	"Basil_Leaves_name": "",
+	"Basil_Leaves_description": "",
 	"Coriander_Stalk_name": "",
 	"Coriander_Stalk_description": "",
+	"Oregano_Leaves_name": "",
+	"Oregano_Leaves_Description": "",
 	"Turmeric_Root_name": "",
 	"Turmeric_Root_description": "",
 
-	"Black_Pepper_Drupe_name": "",
-	"Black_pepper_Drupe_description": "",
+	"Pepper_Drupe_Spike_name": "",
+	"Pepper_Drupe_Spike_description": "",
 	"Vanilla_Pod_name": "",
 	"Vanilla_Pod_description": "",
 
@@ -61,6 +65,8 @@
 	"Cilantro_description": "",
 	"Cloves_name": "",
 	"Cloves_description": "",
+	"Coriander_name": "",
+	"Coriander_description": "",
 	"Cumin_name": "",
 	"Cumin_description": "",
 	"Curry_Powder_name": "",
@@ -75,15 +81,15 @@
 	"Oregano_description": "",
 	"Turmeric_name": "",
 	"Turmeric_description": "",
-	"Vanilla_Bean_Dried_name": "",
-	"Vanilla_Bean_Dried_description": "",
+	"Vanilla_Bean_name": "",
+	"Vanilla_Bean_description": "",
+	"Vanilla_Extract_name": "",
+	"Vanilla_Extract_description": "",
 
 	"Dijon_Mustard_name": "Dijon Mustard",
 	"Dijon_Mustard_description" : "A rich yellow condiment, produced right here in Stardew Valley!",
 	"Deviled_Egg_name": "Deviled Egg",
 	"Deviled_Egg_description": "A decadent take on the classic hard boiled egg.",
-	"Vanilla_Extract_name": "",
-	"Vanilla_Extract_description": "",
 
 	"Spice_Table_name": "",
 	"Spice_Table_description": ""
