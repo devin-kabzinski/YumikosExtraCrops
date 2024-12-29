@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Allspice": "Allspice_Fruit_Dried 1/25 5/Allspice 2/default",
+        "Basil": "Basil_Leaves 1/25 5/Basil 1/default",
+        "Cardamom": "Cardamom_Seeds 1/25 5/Cardamom 1/ default",
+        "Cinnamon": "Cinnamon_Bark 1/25 5/Cinnamon 2/default",
+        "Cloves": "Clove_Flower_Bud 1/25 5/Cloves 2/default",
+        "Coriander": "Coriander_Stalk 1/25 5/Coriander_Seeds 1 Coriander 1/default",
+        "Cumin": "Cumin_Seeds 1/25 5/Cumin 1/default",
+        "Curry Powder": "Black Pepper 1 Cardamom 1 Cinnamon 1 Coriander_Seeds 1 Cumin 1 Turmeric 1/25 5/Curry_Powder 10/default",
+        "Garam Masala": "Black Pepper 1 Cardamom 1 Cinnamon 1 Cloves 1 Mace 1 Nutmeg 1/25 5/Garam_Masala 5/default",
+        "Nutmeg and Mace": "Nutmeg_Fruit_Dried 1/25 5/Mace 1 Nutmeg 2/default",
+        "Oregano": "Oregano_Leaves 1/25 5/Oregano 1/default",
+        "Turmeric": "Turmeric_Root 1/25 5/Turmeric 2/default",
+        "Vanilla_Extract": "Vanilla_Bean 1/25 5/Vanilla_Extract 5/default",
+
+        "Deviled Eggs": "-5 3 306 1 Dijon_Mustard 1 419 1/25 5/Deviled_Egg 6/default"
+      }
+    }
+  ]
+}

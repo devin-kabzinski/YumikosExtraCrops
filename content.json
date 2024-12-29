@@ -10,16 +10,20 @@
 	"Changes": [
         {
             "Action": "Load",
-            "Target": "SakakiYumiko.YumikosExtraCrops/Crops, SakakiYumiko.YumikosExtraCrops/FruitTrees, SakakiYumiko.YumikosExtraCrops/Objects",
+            "Target": "SakakiYumiko.YumikosExtraCrops/crops, SakakiYumiko.YumikosExtraCrops/fruit_trees, SakakiYumiko.YumikosExtraCrops/objects",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
 		{
 			"Action": "Include",
-			"FromFile": "data/CookingRecipies.json, data/Crops.json, data/FruitTrees.json, data/Machines.json, data/Objects.json"
+			"FromFile": "data/crops.json, data/fruit_trees.json, data/objects.json"
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/Shop_Seeds.json"
+			"FromFile": "data/preserves_jar.json, data/cooking_recipes.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/shop_seeds.json"
 		}
     ]
 }
