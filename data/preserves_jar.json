@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "Add mustard to the Preserves Jar",
+      "LogName": "Add Outputs for the Preserves Jar",
       "Action": "EditData",
       "Target": "Data/Machines",
       "TargetField": [
@@ -9,6 +9,52 @@
         "OutputRules"
       ],
       "Entries": {
+        "Vanilla_Extract_Rule": {
+          "Id": "Vanilla_Extract_Rule",
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "RequiredItemId": "Dried_Vanilla_Bean",
+              "RequiredCount": 5,
+              "Condition": null
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": false,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": 0,
+              "Condition": null,
+              "Id": "Vanilla_Extract",
+              "ItemId": "Vanilla_Extract",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 2,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ],
+          "DaysUntilReady": 4,
+          "InvalidCountMessage": null,
+          "RecalculateOnCollect": false
+        },
         "Mustard_Rule": {
           "Id": "Mustard_Rule",
           "Triggers": [
@@ -51,6 +97,55 @@
               "PerItemCondition": null,
               "CustomData": {
                 "selph.ExtraMachineConfig.RequirementId.1": "348"
+              }
+            }
+          ],
+          "DaysUntilReady": 4,
+          "InvalidCountMessage": null,
+          "RecalculateOnCollect": false
+        },
+        "Soy_Sauce_Rule": {
+          "Id": "Soy_Sauce_Rule",
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "RequiredItemId": "Soybean",
+              "RequiredCount": 5,
+              "Condition": null
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "OutputMethod": null,
+              "CopyColor": false,
+              "CopyPrice": false,
+              "CopyQuality": false,
+              "PreserveType": null,
+              "PreserveId": null,
+              "IncrementMachineParentSheetIndex": 0,
+              "PriceModifiers": null,
+              "PriceModifierMode": 0,
+              "Condition": null,
+              "Id": "Soy_Sauce",
+              "ItemId": "Soy_Sauce",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null,
+              "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "262"
               }
             }
           ],

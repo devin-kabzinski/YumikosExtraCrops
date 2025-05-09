@@ -1,0 +1,143 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Outputs to the Mill",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "TargetField": [
+        "Mill",
+        "ItemConversions"
+      ],
+      "Entries": {
+        "Cinnamon_Rule": {
+          "Id": "Cinnamon_Rule",
+          "RequiredTags": [
+            "Cinnamon_Bark"
+          ],
+          "RequiredCount": 1,
+          "MaxDailyConversions": -1,
+          "SourceChest": "Input",
+          "DestinationChest": "Output",
+          "ProducedItems": [
+            {
+              "Condition": null,
+              "Id": "Cinnamon",
+              "ItemId": "Cinnamon",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 2,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ]
+        },
+        "Cardamom_Rule": {
+          "Id": "Cardamom_Rule",
+          "RequiredTags": [
+            "Cardamom_Seeds"
+          ],
+          "RequiredCount": 1,
+          "MaxDailyConversions": -1,
+          "SourceChest": "Input",
+          "DestinationChest": "Output",
+          "ProducedItems": [
+            {
+              "Condition": null,
+              "Id": "Cardamom",
+              "ItemId": "Cardamom",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ]
+        },
+        "Cumin_Rule": {
+          "Id": "Cumin_Rule",
+          "RequiredTags": [
+            "Cumin_Seeds"
+          ],
+          "RequiredCount": 1,
+          "MaxDailyConversions": -1,
+          "SourceChest": "Input",
+          "DestinationChest": "Output",
+          "ProducedItems": [
+            {
+              "Condition": null,
+              "Id": "Cumin",
+              "ItemId": "Cumin",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ]
+        },
+        "Turmeric_Rule": {
+          "Id": "Turmeric_Rule",
+          "RequiredTags": [
+            "Turmeric_Root"
+          ],
+          "RequiredCount": 1,
+          "MaxDailyConversions": -1,
+          "SourceChest": "Input",
+          "DestinationChest": "Output",
+          "ProducedItems": [
+            {
+              "Condition": null,
+              "Id": "Turmeric",
+              "ItemId": "Turmeric",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": 0,
+              "QualityModifiers": null,
+              "QualityModifierMode": 0,
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

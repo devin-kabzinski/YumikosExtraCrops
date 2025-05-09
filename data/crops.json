@@ -6,8 +6,7 @@
       "Entries": {
         "Black_Pepper_Vine_Starter": {
           "Seasons": [
-            "Spring",
-            "Summer"
+            "Spring"
           ],
           "DaysInPhase": [
             1,
@@ -19,33 +18,36 @@
           "RegrowDays": 5,
           "IsRaised": true,
           "HarvestItemId": "Pepper_Drupe_Spike",
-          "HarvestMinStack": 2,
+          "HarvestMinStack": 3,
           "HarvestMaxStack": 3,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 1
         },
         "Vanilla_Vine_Starter": {
           "Seasons": [
+            "Summer",
             "Fall"
           ],
           "DaysInPhase": [
             2,
             3,
             5,
-            5,
-            5
+            6,
+            7
           ],
           "RegrowDays": 8,
           "IsRaised": true,
           "HarvestItemId": "Vanilla_Pod",
-          "HarvestMinStack": 3,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 2
         },
         "Basil_Seeds": {
           "Seasons": [
@@ -53,24 +55,25 @@
           ],
           "DaysInPhase": [
             1,
-            1,
             2,
             2,
+            3,
             3
           ],
           "RegrowDays": -1,
           "IsRaised": false,
           "HarvestItemId": "Basil_Leaves",
-          "HarvestMinStack": 3,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 3
         },
         "Cardamom_Seeds": {
           "Seasons": [
-            "Autumn"
+            "Fall"
           ],
           "DaysInPhase": [
             3,
@@ -82,12 +85,13 @@
           "RegrowDays": -1,
           "IsRaised": false,
           "HarvestItemId": "Cardamom_Seeds",
-          "HarvestMinStack": 3,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 4
         },
         "Coriander_Seeds": {
           "Seasons": [
@@ -97,18 +101,19 @@
             1,
             1,
             2,
-            2,
+            3,
             3
           ],
           "RegrowDays": -1,
           "IsRaised": false,
           "HarvestItemId": "Coriander_Stalk",
-          "HarvestMinStack": 3,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 5
         },
          "Cumin_Seeds": {
           "Seasons": [
@@ -125,11 +130,12 @@
           "IsRaised": false,
           "HarvestItemId": "Cumin_Seeds",
           "HarvestMinStack": 3,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMaxStack": 3,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.0,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 6
         },
         "Mustard_Seeds": {
           "Seasons": [
@@ -145,14 +151,37 @@
           "RegrowDays": -1,
           "IsRaised": false,
           "HarvestItemId": "Mustard_Seeds",
-          "HarvestMinStack": 2,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMinStack": 3,
+          "HarvestMaxStack": 3,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.0,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 0
         },
         "Oregano_Seeds": {
+          "Seasons": [
+            "Spring"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            3,
+            4
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "HarvestItemId": "Oregano_Leaves",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
+          "HarvestMethod": "Grab",
+          "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
+          "SpriteIndex": 7
+        },
+        "Soybean_Seeds": {
           "Seasons": [
             "Summer"
           ],
@@ -165,15 +194,16 @@
           ],
           "RegrowDays": -1,
           "IsRaised": false,
-          "HarvestItemId": "Oregano_Leaves",
+          "HarvestItemId": "Soybeans",
           "HarvestMinStack": 3,
-          "HarvestMaxStack": 4,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMaxStack": 3,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 8
         },
-        "Turmeric_Seeds": {
+        "Turmeric_Root": {
           "Seasons": [
             "Summer"
           ],
@@ -188,11 +218,12 @@
           "IsRaised": false,
           "HarvestItemId": "Turmeric_Root",
           "HarvestMinStack": 2,
-          "HarvestMaxStack": 3,
-          "HarvestMaxIncreasePerFarmingLevel": ".05",
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0.0,
+          "ExtraHarvestChance": 0.02,
           "HarvestMethod": "Grab",
           "Texture": "SakakiYumiko.YumikosExtraCrops/Crops",
-          "SpriteIndex": 000
+          "SpriteIndex": 9
         }
       }
     }

@@ -13,7 +13,7 @@
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
-              "RequiredItemId": "Black_Pepper_Drupe_Spike",
+              "RequiredItemId": "Pepper_Drupe_Spike",
               "RequiredCount": 1,
               "Condition": null
             }
@@ -35,8 +35,8 @@
               "ItemId": "Black_Pepper",
               "RandomItemId": null,
               "MaxItems": null,
-              "MinStack": 3,
-              "MaxStack": 3,
+              "MinStack": -1,
+              "MaxStack": -1,
               "Quality": -1,
               "ObjectInternalName": null,
               "ObjectDisplayName": null,
@@ -77,8 +77,8 @@
               "PriceModifiers": null,
               "PriceModifierMode": 0,
               "Condition": null,
-              "Id": "Vanilla_Bean",
-              "ItemId": "Vanilla_Bean",
+              "Id": "Dried_Vanilla_Bean",
+              "ItemId": "Dried_Vanilla_Bean",
               "RandomItemId": null,
               "MaxItems": null,
               "MinStack": -1,
@@ -100,12 +100,12 @@
           "InvalidCountMessage": null,
           "RecalculateOnCollect": false
         },
-        "Allspice_Fruit_Rule": {
-          "Id": "Allspice_Fruit_Rule",
+        "Basil_Leaves_Rule": {
+          "Id": "Basil_Leaves_Rule",
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
-              "RequiredItemId": "Allspice_Fruit",
+              "RequiredItemId": "Basil_Leaves",
               "RequiredCount": 1,
               "Condition": null
             }
@@ -123,8 +123,8 @@
               "PriceModifiers": null,
               "PriceModifierMode": 0,
               "Condition": null,
-              "Id": "Allspice_Fruit_Dried",
-              "ItemId": "Allspice_Fruit_Dried",
+              "Id": "Basil",
+              "ItemId": "Basil",
               "RandomItemId": null,
               "MaxItems": null,
               "MinStack": -1,
@@ -146,12 +146,12 @@
           "InvalidCountMessage": null,
           "RecalculateOnCollect": false
         },
-        "Nutmeg_Fruit_Rule": {
-          "Id": "Nutmeg_Fruit_Rule",
+        "Oregano_Leaves_Rule": {
+          "Id": "Oregano_Leaves_Rule",
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
-              "RequiredItemId": "Nutmeg_Fruit",
+              "RequiredItemId": "Oregano_Leaves",
               "RequiredCount": 1,
               "Condition": null
             }
@@ -169,8 +169,8 @@
               "PriceModifiers": null,
               "PriceModifierMode": 0,
               "Condition": null,
-              "Id": "Nutmeg_Fruit_Dried",
-              "ItemId": "Nutmeg_Fruit_Dried",
+              "Id": "Oregano",
+              "ItemId": "Oregano",
               "RandomItemId": null,
               "MaxItems": null,
               "MinStack": -1,

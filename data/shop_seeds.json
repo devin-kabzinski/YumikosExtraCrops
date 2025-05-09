@@ -8,17 +8,125 @@
         "Items"
       ],
       "Entries": {
+        "Cinnamon_Tree_Sapling": {
+          "Id": "Cinnamon_Tree_Sapling",
+          "ItemId": "Cinnamon_Tree_Sapling",
+          "Price": "5500"
+        },
+        "Lemon_Tree_Sapling": {
+          "Id": "Lemon_Tree_Sapling",
+          "ItemId": "Lemon_Tree_Sapling",
+          "Price": "3500"
+        },
+        "Black_Pepper_Vine_Starter": {
+          "Id": "Black_Pepper_Vine_Starter",
+          "ItemId": "Black_Pepper_Vine_Starter",
+          "Condition": "SEASON Spring",
+          "Price": "110"
+        },
+        "Vanilla_Vine_Starter": {
+          "Id": "Vanilla_Vine_Starter",
+          "ItemId": "Vanilla_Vine_Starter",
+          "Condition": "SEASON Summer Fall",
+          "Price": "350"
+        },
+        "Basil_Seeds": {
+          "Id": "Basil_Seeds",
+          "ItemId": "Basil_Seeds",
+          "Condition": "SEASON Summer",
+          "Price": "35"
+        },
+        "Cardamom_Seeds": {
+          "Id": "Cardamom_Seeds",
+          "ItemId": "Cardamom_Seeds",
+          "Condition": "SEASON Fall",
+          "Price": "85"
+        },
+         "Coriander_Seeds": {
+          "Id": "Coriander_Seeds",
+          "ItemId": "Coriander_Seeds",
+          "Condition": "SEASON Fall",
+          "Price": "55"
+        },
+        "Cumin_Seeds": {
+          "Id": "Cumin_Seeds",
+          "ItemId": "Cumin_Seeds",
+          "Condition": "SEASON Summer",
+          "Price": "55"
+        },
         "Mustard_Seeds": {
           "Id": "Mustard_Seeds",
           "ItemId": "Mustard_Seeds",
           "Condition": "SEASON Winter",
           "Price": "40"
+        },
+        "Oregano_Seeds": {
+          "Id": "Oregano_Seeds",
+          "ItemId": "Oregano_Seeds",
+          "Condition": "SEASON Spring",
+          "Price": "30"
+        },
+        "Soybean_Seeds": {
+          "Id": "Soybean_Seeds",
+          "ItemId": "Soybean_Seeds",
+          "Condition": "SEASON Summer",
+          "Price": "35"
+        },
+        "Turmeric_Seeds": {
+          "Id": "Turmeric_Seeds",
+          "ItemId": "Turmeric_Seeds",
+          "Condition": "SEASON Fall",
+          "Price": "70"
         }
       },
       "MoveEntries": [
         {
+          "ID": "Cinnamon_Tree_Sapling",
+          "AfterId": "(O)628"
+        },
+        {
+          "ID": "Lemon_Tree_Sapling",
+          "AfterId": "(O)630"
+        },
+        {
+          "ID": "Black_Pepper_Vine_Starter",
+          "AfterId": "(O)473"
+        },
+        {
+          "ID": "Vanilla_Vine_Starter",
+          "BeforeId": "(O)431"
+        },
+        {
+          "ID": "Basil_Seeds",
+          "BeforeId": "(O)481"
+        },
+        {
+          "ID": "Cardamom_Seeds",
+          "AfterId": "(O)488"
+        },
+        {
+          "ID": "Coriander_Seeds",
+          "AfterId": "Cardamom_Seeds"
+        },
+        {
+          "ID": "Cumin_Seeds",
+          "AfterId": "(O)481"
+        },
+        {
           "ID": "Mustard_Seeds",
           "ToPosition": "Top"
+        },
+        {
+          "ID": "Oregano_Seeds",
+          "AfterId": "(O)192"
+        },
+        {
+          "ID": "Soybean_Seeds",
+          "AfterId": "(O)483"
+        },
+        {
+          "ID": "Turmeric_Seeds",
+          "AfterId": "(O)492"
         }
       ]
     }
