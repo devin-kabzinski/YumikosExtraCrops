@@ -1,34 +1,38 @@
 {
-  "Action": "EditData",
-  "Target": "Data/FruitTrees",
-  "Entries": {
-    "Cinnamon_Tree_Sapling": {
-      "DisplayName": "{{i18n:Cinnamon_Tree_Sapling_name}}",
-      "Seasons": [
-        "Fall"
-      ],
-      "Fruit": [
-        {
-          "Id": "Cinnamon_Bark",
-          "ItemId": "Cinnamon_Bark"
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/FruitTrees",
+      "Entries": {
+        "Cinnamon_Tree_Sapling": {
+          "DisplayName": "{{i18n:Cinnamon_Tree_Sapling_name}}",
+          "Seasons": [
+            "Fall"
+          ],
+          "Fruit": [
+            {
+              "Id": "Cinnamon_Bark",
+              "ItemId": "Cinnamon_Bark"
+            }
+          ],
+          "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
+          "TextureSpriteRow": 0
+        },
+        "Lemon_Tree_Sapling": {
+          "DisplayName": "{{i18n:Lemon_Tree_Sapling_name}}",
+          "Seasons": [
+            "Fall"
+          ],
+          "Fruit": [
+            {
+              "Id": "Lemon",
+              "ItemId": "Lemon"
+            }
+          ],
+          "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
+          "TextureSpriteRow": 1
         }
-      ],
-      "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
-      "TextureSpriteRow": 0
-    },
-    "Lemon_Tree_Sapling": {
-      "DisplayName": "{{i18n:Lemon_Tree_Sapling_name}}",
-      "Seasons": [
-        "Fall"
-      ],
-      "Fruit": [
-        {
-          "Id": "Lemon",
-          "ItemId": "Lemon"
-        }
-      ],
-      "Texture": "SakakiYumiko.YumikosExtraCrops/FruitTrees",
-      "TextureSpriteRow": 1
+      }
     }
-  }
+  ]
 }

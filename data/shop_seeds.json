@@ -126,7 +126,7 @@
         },
         {
           "ID": "Turmeric_Seeds",
-          "AfterId": "(O)492"
+          "AfterId": "(O)492" //reorder to before kale
         }
       ]
     }

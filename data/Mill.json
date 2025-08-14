@@ -8,8 +8,8 @@
         "Mill",
         "ItemConversions"
       ],
-      "Entries": {
-        "Cinnamon_Rule": {
+      "Entries": [
+        {
           "Id": "Cinnamon_Rule",
           "RequiredTags": [
             "Cinnamon_Bark"
@@ -41,7 +41,7 @@
             }
           ]
         },
-        "Cardamom_Rule": {
+        {
           "Id": "Cardamom_Rule",
           "RequiredTags": [
             "Cardamom_Seeds"
@@ -73,7 +73,7 @@
             }
           ]
         },
-        "Cumin_Rule": {
+        {
           "Id": "Cumin_Rule",
           "RequiredTags": [
             "Cumin_Seeds"
@@ -105,7 +105,7 @@
             }
           ]
         },
-        "Turmeric_Rule": {
+        {
           "Id": "Turmeric_Rule",
           "RequiredTags": [
             "Turmeric_Root"
@@ -137,7 +137,7 @@
             }
           ]
         }
-      }
+      ]
     }
   ]
 }
